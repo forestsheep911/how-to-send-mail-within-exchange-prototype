@@ -1,0 +1,4 @@
+*.log
+LICENSE
+yarn.lock
+.gitignore

@@ -1,0 +1,21 @@
+{
+  "name": "how-to-send-mail-within-exchange-prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/forestsheep911/how-to-send-mail-within-exchange-prototype.git",
+  "author": "forestsheep911 <bxu@cybozu.onmicrosoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "isomorphic-fetch": "^3.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
