@@ -7,9 +7,10 @@ async function main() {
   try {
     // 收件人信息
     const to = 'cybozushmobile@gmail.com';
+    // const to = 'zhujun@cybozu.cn';
     const cc = ['cc1@example.com'];
     const bcc = ['bcc1@example.com'];
-    const subject = '测试邮件 - 附件处理';
+    const subject = '测试邮件222';
     const content = '这是一封包含多个附件的测试邮件。';
     const contentType = 'Text';
 
@@ -59,7 +60,7 @@ async function main() {
       subject,
       content,
       contentType,
-      attachments,
+    //   attachments,
     });
 
     console.log('邮件发送成功！');

@@ -10,7 +10,7 @@ async function main() {
         // const to = 'cybozu.bxu@gmail.com';
         const cc = ['cc1@example.com'];
         const bcc = ['bcc1@example.com']; 
-        const subject = '测试邮件 - 附件处理';
+        const subject = '测试邮件232 - 附件处理';
         const content = '这是一封包含多个附件的测试邮件。';
         const contentType = 'Text';
 
